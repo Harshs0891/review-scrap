@@ -6,6 +6,7 @@ from urllib.request import urlopen as uReq
 import logging
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 import pymongo
+import creds
 
 
 app = Flask(__name__)
@@ -76,7 +77,7 @@ def index():
             logging.info("log my final result {}".format(reviews))
 
 
-            client = pymongo.MongoClient('mongodb+srv://Scorteen:hARSH%40123@cluster0.n36qkts.mongodb.net/?retryWrites=true&w=majority')
+            client = pymongo.MongoClient(creds.MONGO_URL)
             db = client['review_scrap']
             review_col = db['review_scrap_data']
             review_col.insert_many(reviews)

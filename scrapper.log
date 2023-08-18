@@ -5510,3 +5510,32 @@ INFO:root:log my final result [{'Product': 'redmi', 'Name': 'Dinesh ', 'Rating':
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 16:01:06] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 16:01:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 16:01:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.70.96.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:34:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:34:11] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:34:11] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.70.96.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:35:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:35:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:35:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.70.96.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Honor', 'Name': 'Ranjan K', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Overall good'}, {'Product': 'Honor', 'Name': 'Soham Patel', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Got phone one month ago. I am very happy with this phone at this price point. Very good camera front and back both. Battery backup is good too. Also I like face detection technology in this phone. I captured some pictures during my dubai trip which is upto the mark.'}, {'Product': 'Honor', 'Name': 'Kiran T', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'nice phone'}, {'Product': 'Honor', 'Name': 'Afzal Khan', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'really awesome camera quality'}, {'Product': 'Honor', 'Name': 'ankit saraswat', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'nice phone'}, {'Product': 'Honor', 'Name': 'Puja Chauhan', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very nice phone.. Camera is just awesome... Complte dslr mode.. I have attached the pic clicked by this phone.. Battery is just okk i wnted fast charging  But its fine its takes one n half hr to  get fully charged.. N lastly thnku for the back cover.. Camera is love\U0001f60d'}, {'Product': 'Honor', 'Name': 'Nagendiran S', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Honor 9 lite nice  product to buy. worth for money. Camera like dslr... Really superb camera quality. Easy to handle this smartphone. Good smartphone for me.'}, {'Product': 'Honor', 'Name': 'Karan  Hemke', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Nice mobile and nice review'}, {'Product': 'Honor', 'Name': 'Jigar Patel', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'premium quality product. camera nice & performance is good. front camera is owsem'}, {'Product': 'Honor', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Writing this after 3months of usage... awesome camera quality (even in full zoom) the monkey pic is a example of full zoom quality... incredible sound.. satisfactory battery...'}, {'Product': 'Honor', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Writing this after 3months of usage... awesome camera quality (even in full zoom) the monkey pic is a example of full zoom quality... incredible sound.. satisfactory battery...'}]
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:35:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:35:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2023 21:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
